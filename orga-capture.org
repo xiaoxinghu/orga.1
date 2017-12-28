@@ -7,7 +7,7 @@ orga-capture - capture notes into org files
 
 * SYNOPSIS
 
-*orga capture* [content ...] [options]
+~orga capture~ [content ...] [options]
 
 * DESCRIPTION
 
@@ -16,14 +16,14 @@ of org-mode in emacs.
 
 * OPTIONS
 
-- -l ---location :: file(+headline) to capture into
-- -k ---keyword :: apply keyword to the entry
-- -n ---notes :: add notes to the entry
-- -p ---prepend :: prepend to the target location instead of append
-- -d ---due :: set due date for the entry
-- -T ---[no]timestamp :: whether or not to include the timestamp
-- -t ---tags :: apply tags, separated by ~:~
-- -f ---format :: format of entry, or a template file path
+- ~-l --location~ :: file(+headline) to capture into
+- ~-k --keyword~ :: apply keyword to the entry
+- ~-n --notes~ :: add notes to the entry
+- ~-p --prepend~ :: prepend to the target location instead of append
+- ~-d --due~ :: set due date for the entry
+- ~-T --[no]timestamp~ :: whether or not to include the timestamp
+- ~-t --tags~ :: apply tags, separated by ~:~
+- ~-f --format~ :: format of entry, or a template file path
                    
 * EXAMPLES
 

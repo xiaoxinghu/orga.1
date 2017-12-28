@@ -7,7 +7,7 @@ orga-agenda - search your org files
 
 * SYNOPSIS
 
-*orga agenda* [path ...] [options]
+~orga agenda~ [path ...] [options]
 
 * DESCRIPTION
 
