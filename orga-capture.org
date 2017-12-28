@@ -1,0 +1,32 @@
+#+title: ORGA-CAPTURE(1) | Orga User Manual
+#+date: <2017-12-27 Wed> 
+
+* NAME
+
+orga-capture - capture notes into org files
+
+* SYNOPSIS
+
+*orga capture* [content ...] [options]
+
+* DESCRIPTION
+
+Capture content into the org file of your choice. Similar to the capture feature
+of org-mode in emacs.
+
+* OPTIONS
+
+- -l ---location :: file(+headline) to capture into
+- -k ---keyword :: apply keyword to the entry
+- -n ---notes :: add notes to the entry
+- -p ---prepend :: prepend to the target location instead of append
+- -d ---due :: set due date for the entry
+- -T ---[no]timestamp :: whether or not to include the timestamp
+- -t ---tags :: apply tags, separated by ~:~
+- -f ---format :: format of entry, or a template file path
+                   
+* EXAMPLES
+
+#+BEGIN_SRC sh
+  orga c "remember the milk" -k TODO -l "~/org/misc.org#thigs to do" -n "full cream milk" -d 5pm
+#+END_SRC

@@ -1,0 +1,19 @@
+#+title: ORGA(1) | Orga User Manual
+#+date: <2017-12-27 Wed> 
+
+* NAME
+
+orga - handles your org files without emacs
+
+* SYNOPSIS
+
+orga [command] [options]
+
+* DESCRIPTION
+
+*orga* is a command line tool that reads and write org files.
+
+* SEE ALSO
+orga-agenda(1)
+orga-capture(1)
+
